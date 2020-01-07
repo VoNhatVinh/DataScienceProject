@@ -11,7 +11,7 @@ This is the final data science project from Mr. Kien
 
 # 3. Structure:
 
-Folder and file:
+Folders and files:
 
 -data: contain data crawled from Chotot.com
 + data-full.csv: all data
