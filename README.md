@@ -7,7 +7,7 @@ This is the final data science project from Mr. Kien
 - Nguyễn Ngọc Khải - 1612909
 
 ## 2. Topic:
-- Real estate price classification on Chottot.com
+- Real estate price classification on Chotot.com
 
 ## 3. Structure:
 
