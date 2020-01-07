@@ -47,7 +47,8 @@ Folders and files:
 + Best model: RandomForest with 500 trees. Best accuracy on test: 79.9%
 
 # 5. Slide
-https://docs.google.com/presentation/d/1pgf8lBspJV1ksI9G-cnYnLVxSn213nCMq72PPqCSL7I/edit#slide=id.p
+[Slide](https://docs.google.com/presentation/d/1pgf8lBspJV1ksI9G-cnYnLVxSn213nCMq72PPqCSL7I/edit#slide=id.p)
+
 
 # 6. How to run:
 - copy file test.csv, train.csv, train1.csv, val.csv from folder data to folder source code/preprocessing and model.
