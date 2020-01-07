@@ -30,7 +30,7 @@ Folders and files:
 + final.pdf: final presentation
 
 # 4. Slide
-https://docs.google.com/presentation/d/1rX9uH3_meROl1uo0cthSMZroYR3sOTHXLfEekfCxZVA/edit?usp=sharing
+https://docs.google.com/presentation/d/1pgf8lBspJV1ksI9G-cnYnLVxSn213nCMq72PPqCSL7I/edit#slide=id.p
 
 # 5. How to run:
 - copy file test.csv, train.csv, train1.csv, val.csv from folder data to folder source code/preprocessing and model.
