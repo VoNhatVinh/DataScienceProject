@@ -29,6 +29,9 @@ Folders and files:
 + midterm.pdf: midterm presentation
 + final.pdf: final presentation
 
-# 4. How to run:
+# 4. Slide
+https://docs.google.com/presentation/d/1rX9uH3_meROl1uo0cthSMZroYR3sOTHXLfEekfCxZVA/edit?usp=sharing
+
+# 5. How to run:
 - copy file test.csv, train.csv, train1.csv, val.csv from folder data to folder source code/preprocessing and model.
 - Open file Run and run.
