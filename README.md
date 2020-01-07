@@ -29,7 +29,34 @@ Folders and files:
 + midterm.pdf: midterm presentation
 + final.pdf: final presentation
 
-## 4. Build model
+## 4. Data
+### Describe
++ 17742 Records
++ 20% test, 30% val, 50% train.
+
+### Features
++ price: price of the house (vnđ)
++ type: type of sell the house (ex: "Môi giới")
++ time: the time that the seller post
++ link: link to the post
++ address: address of the house
++ title: title of the post
++ area: the area of the house (m^2)
++ bedroom_num: the number of the bedroom in the house
++ house_type: the type of the house (ex: "Nhà")
++ toilet_num: the number of toilet room in the house
++ direction: direction of the house
++ legcal_doc: legcal document of the house (aka: "Sổ đỏ", "Sổ hồng)
++ block_name: block name of the house
++ total_floor: total floor in the house
++ housing_feature: house features
++ city: the city that the house is in (Of course HCM)
++ district:  the district that the house is in
++ ward: the ward that the house is in
++ street: the street that the house is in
++ description: the decription of the post
+
+## 5. Build model
 ### Preprocess:
 + Remove: remove house that price is outlier 
 + Filter: filter nan, nan of numeric columns is 0.0, nan of categorical columns is "Khác".
@@ -46,10 +73,10 @@ Folders and files:
 ### Based on result, we choose LogisticRegression and RandomForest to get a best model by try different parameters.
 + Best model: RandomForest with 500 trees. Best accuracy on test: 79.9%
 
-## 5. Slide
+## 6. Slide
 [Slide](https://docs.google.com/presentation/d/1pgf8lBspJV1ksI9G-cnYnLVxSn213nCMq72PPqCSL7I/edit#slide=id.p)
 
 
-## 6. How to run:
+## 7. How to run:
 - copy file `test.csv`, `train.csv`, `train1.csv`, `val.csv` from folder data to folder source code/preprocessing and model.
 - Open file `Run.ipynb` and run.
