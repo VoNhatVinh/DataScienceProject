@@ -13,7 +13,7 @@ This is the final data science project from Mr. Kien
 
 Folders and files:
 
--data: contain data crawled from Chotot.com
+### Data: contain data crawled from `Chotot.com`
 + data-full.csv: all data
 + data-full.xlsx: all data
 + test.csv: file test
@@ -21,30 +21,30 @@ Folders and files:
 + train1.csv: file train
 + val.csv: file validation
 
--source code: contain  and processing data, train model.
+### Source code: contain  and processing data, train model.
 + get data: code crawled data from Chotot
 + preprocessing and model: contain file split_train_test and file Run
 
--report: 
+### Report: 
 + midterm.pdf: midterm presentation
 + final.pdf: final presentation
 
 # 4. Build model
-- Preprocess:
+### Preprocess:
 + Remove: remove house that price is outlier 
 + Filter: filter nan, nan of numeric columns is 0.0, nan of categorical columns is "Khác".
 + Bins: get price to 2 bins
 + One hot encoding
 + Standard Scale
 
-- Model:
+### Model:
 + LogisticRegression
 + MLPClassifier
 + RandomForest
 + KNearestNeighbors
 
-- Based on result, we choose LogisticRegression and RandomForest to get a best model by try different parameters.
-+ Best model: RandomForest with 1000 trees.
+### Based on result, we choose LogisticRegression and RandomForest to get a best model by try different parameters.
++ Best model: RandomForest with 500 trees. Best accuracy on test: 79.9%
 
 # 5. Slide
 https://docs.google.com/presentation/d/1pgf8lBspJV1ksI9G-cnYnLVxSn213nCMq72PPqCSL7I/edit#slide=id.p
