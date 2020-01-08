@@ -32,7 +32,7 @@ Folders and files:
 ## 4. Data
 ### Describe
 + 17742 Records
-+ 20% test, 30% val, 50% train.
++ 20% test, 26% val, 54% train.
 
 ### Features
 + price: price of the house (vnđ)
