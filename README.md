@@ -46,7 +46,7 @@ Folders and files:
 + house_type: the type of the house (ex: "Nhà")
 + toilet_num: the number of toilet room in the house
 + direction: direction of the house
-+ legcal_doc: legcal document of the house (aka: "Sổ đỏ", "Sổ hồng)
++ legcal_doc: legical document of the house (aka: "Sổ đỏ", "Sổ hồng)
 + block_name: block name of the house
 + total_floor: total floor in the house
 + housing_feature: house features
